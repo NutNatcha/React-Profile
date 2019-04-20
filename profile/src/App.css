@@ -1,0 +1,86 @@
+
+.App {
+  text-align: center;
+}
+
+.App-image {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-content2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content-red {
+  background-color: red;
+  color: white;
+}
+.App-content-white {
+  background-color: white;
+  color: #282c11;
+}
+
+.App-content-dark {
+  background-color: #282c11;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cards{
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card{
+  border-radius: 10px;
+  height: 60vh;
+  width: 30%;
+  background-color: white;
+  color: #282c11;
+}
+
+.skillbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+  border: 1px solid red;
+
+}
+.skillbar-bar {
+  border-radius: 10px;
+  height: 10px;
+  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
